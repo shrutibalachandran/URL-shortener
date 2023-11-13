@@ -1,0 +1,132 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL SHORTENER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+ 
+ </head>
+ <body>
+
+    <!------Navbar------>
+    <header>
+        <div class="left">
+            <img src="logo6.png">
+            <ul class="nav-menu">
+                <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+        <ul class="nav-menu">
+          <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+          <li class="nav-item"><a href="#" class="nav-link active">Sign up</a></li>
+        </ul>
+        </div>
+    </header>
+    <main>
+
+         <!------Main-Section------>
+        <section>
+            <div class="content">
+                <h1>Welcome to Shrinkr.io!</h1>
+                <p>Build your brands recognition and get detailed
+                   insights on how your links are performing.</p>
+               <button class="btn">Get started</button>
+            </div>
+
+            <div class="image">
+        <img src="working2-removebg-preview.png">
+            </div>
+        </section>
+
+        <!------Link-Section----->
+        <section class="link-section">
+        <div class="container">
+			<i class="bx bx-link-alt"></i>
+			<h1 class="try-now">Try Now!</h1>
+			<label for="originalUrl">Enter URL to Shorten :</label>
+			<input type="text" id="originalUrl" placeholder="https://example.com">
+			<div class="buttons">
+				<button id="reload-btn">Reload</button>
+				<button id="short-btn">Short It</button>
+			</div>
+			<label for="shortenedUrl">Shortened URL :</label>
+			<textarea id="shortenedUrl" rows="3" readonly></textarea>
+		</div>
+        </section>
+
+          <!----Services-Section----->
+          <div class="result">
+            <section class="services">
+                <div class="service-content">
+                  <h2>Advanced Statistics</h2>
+                  <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
+                </div>
+                <div class="cards">
+                  <div class=" card card1">
+                    <h3>Brand Recognition</h3>
+                    <p>Boost your brand recognition with each click.
+                      Generic links don't mean a thing. Branded links help instil confidence in your content
+                    </p>
+                  </div>
+                  <div class=" card card2">
+                    <h3>Detailed Records</h3>
+                    <p>Improve brand awareness and content discoverability
+                       through customizable links. Supercharging audience engagement.
+                    </p>
+                  </div>
+                  <div class=" card card3">
+                    <h3>Fully Customizable</h3>
+                    <p>Boost your brand recognition with each click.
+                      Generic links don't mean a thing. Branded links help instil confidence in your content
+                    </p>
+                  </div>
+                </div>
+              </section>
+
+              <!----Boost-Section---->
+              <section class="boost">
+                <h2>Boost your links today</h2>
+                <button class="btn">Get Started</button>
+              </section>         
+    </main>
+
+    <!----Footer-Section---->
+    <footer> 
+ <div class="footer-image"><img src="logo5-removebg-preview.png">
+    <p>By-Shruti Balachandran</p>
+</div>
+      <ul class="footer-links">
+       <li>Features</li>
+       <li>Link Shortening</li>
+       <li>Branded links</li>
+       <li>Analytics</li>
+     </ul>
+     <ul class="footer-links">
+      <li>Resources</li>
+      <li>Blogs</li>
+      <li>Developers</li>
+      <li>Support</li>
+    </ul>
+    <ul class="footer-links">
+      <li>Company</li>
+      <li>About</li>
+      <li>Our Team</li>
+      <li>Careers</li>
+      <li>Contacts</li>
+    </ul>
+      <div class="footer-social">
+        <img src="icon-facebook.svg"  class="social-links"/>
+        <img src="icon-instagram.svg" class="social-links"/>
+        <img src="icon-twitter.svg" class="social-links"/>
+        <img src="icon-pinterest.svg"class="social-links"/>
+      </div>
+    </footer>
+<script src="script.js"></script>
+ </body>
+ </html>
